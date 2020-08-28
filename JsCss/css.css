@@ -1,0 +1,390 @@
+* {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+HTML {
+	BACKGROUND: url(../images/html.jpg) #ffffff repeat-x 50% top
+}
+BODY {
+	FONT-FAMILY: Arial, ºÚÌå, sans-serif; BACKGROUND: url(../images/body.jpg) no-repeat 50% top; COLOR: #9a9a9a; FONT-SIZE: 13px
+}
+A {
+	COLOR: #757575; FONT-SIZE: 13px; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #ce1618 !important
+}
+UL {
+	LIST-STYLE-TYPE: none; OVERFLOW: hidden
+}
+LI {
+	LIST-STYLE-TYPE: none; OVERFLOW: hidden
+}
+IMG {
+	BORDER-RIGHT-WIDTH: 0px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px
+}
+H1 {
+	CLEAR: both; OVERFLOW: hidden
+}
+H2 {
+	CLEAR: both; OVERFLOW: hidden
+}
+H3 {
+	CLEAR: both; OVERFLOW: hidden
+}
+H4 {
+	CLEAR: both; OVERFLOW: hidden
+}
+H5 {
+	CLEAR: both; OVERFLOW: hidden
+}
+H6 {
+	CLEAR: both; OVERFLOW: hidden
+}
+UL {
+	OVERFLOW: hidden
+}
+LI {
+	OVERFLOW: hidden
+}
+DL {
+	OVERFLOW: hidden
+}
+DD {
+	OVERFLOW: hidden
+}
+DT {
+	OVERFLOW: hidden
+}
+.Title {
+	TEXT-OVERFLOW: ellipsis; FLOAT: left; OVERFLOW: hidden; _display: inline
+}
+.T_time {
+	WIDTH: 65px; FLOAT: right
+}
+.Mar {
+	MARGIN-TOP: 10px !important
+}
+.clear {
+	WIDTH: 100%; HEIGHT: 0px; CLEAR: both; OVERFLOW: hidden
+}
+.Head {
+	MARGIN: 0px auto; WIDTH: 1003px; CLEAR: both; OVERFLOW: hidden
+}
+.Bottom {
+	MARGIN: 0px auto; WIDTH: 1003px; CLEAR: both; OVERFLOW: hidden
+}
+.Main {
+	MARGIN: 0px auto; WIDTH: 1003px; CLEAR: both; OVERFLOW: hidden
+}
+.Flash {
+	MARGIN: 0px auto; WIDTH: 1003px; CLEAR: both; OVERFLOW: hidden
+}
+.Index {
+	MARGIN: 0px auto; WIDTH: 1003px; CLEAR: both; OVERFLOW: hidden
+}
+.Banner {
+	MARGIN: 0px auto; WIDTH: 1003px; CLEAR: both; OVERFLOW: hidden
+}
+.H_list {
+	MARGIN: 0px auto; WIDTH: 1003px; CLEAR: both; OVERFLOW: hidden
+}
+#Nav {
+	MARGIN: 0px auto; WIDTH: 1003px; CLEAR: both; OVERFLOW: hidden
+}
+.Head {
+	POSITION: relative; HEIGHT: 88px
+}
+.Search {
+	MARGIN-TOP: 25px; WIDTH: 190px; FLOAT: right; HEIGHT: 26px; OVERFLOW: hidden; MARGIN-RIGHT: 10px; _display: inline
+}
+.S_text {
+	BORDER-BOTTOM: #b4b4b4 1px solid; LINE-HEIGHT: 24px; BORDER-RIGHT-WIDTH: 0px; PADDING-LEFT: 3px; WIDTH: 132px; BACKGROUND: none transparent scroll repeat 0% 0%; FLOAT: left; HEIGHT: 24px; BORDER-TOP: #b4b4b4 1px solid; BORDER-LEFT-WIDTH: 0px
+}
+.Nav {
+	LINE-HEIGHT: 35px; WIDTH: 753px; FLOAT: right; HEIGHT: 35px; MARGIN-RIGHT: 35px; _display: inline
+}
+.Nav LI {
+	TEXT-ALIGN: center; WIDTH: 105px; BACKGROUND: url(../images/nav_li1.jpg) no-repeat right 5px; FLOAT: left; HEIGHT: 35px
+}
+.Nav LI A {
+	LINE-HEIGHT: 42px; DISPLAY: block; FONT-FAMILY: Î¢ÈíÑÅºÚ; HEIGHT: 35px; COLOR: #fff; FONT-SIZE: 12px; FONT-WEIGHT: bold
+}
+.Nav LI A:hover {
+	BACKGROUND: url(../images/nav_hover.jpg) no-repeat 50% top; COLOR: #fff !important
+}
+.Sy a{
+	BACKGROUND: url(../images/nav_hover.jpg) no-repeat 50% top; COLOR: #fff !important
+}
+.H_list {
+	Z-INDEX: 100; POSITION: absolute; HEIGHT: 30px; TOP: 124px
+}
+.H_list DIV {
+	LINE-HEIGHT: 30px; BACKGROUND: url(../images/h_bg.jpg) repeat-x; FLOAT: left; HEIGHT: 30px; OVERFLOW: hidden; _display: inline
+}
+.H_list DIV B {
+	WIDTH: 5px; DISPLAY: block; FLOAT: left; HEIGHT: 30px
+}
+.H_list DIV SPAN {
+	WIDTH: 5px; DISPLAY: block; FLOAT: left; HEIGHT: 30px
+}
+.H_list DIV B {
+	BACKGROUND: url(../images/h_r.png) no-repeat; _background: none; _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src="images/h_r.png")
+}
+.H_list DIV SPAN {
+	BACKGROUND: url(../images/h_l.png) no-repeat; _background: none; _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src="images/h_l.png")
+}
+.H_list DIV A {
+	COLOR: #fff
+}
+.H_list DIV UL {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; BACKGROUND: #f39700; FLOAT: left; PADDING-TOP: 0px
+}
+.H_list DIV UL LI {
+	TEXT-ALIGN: center; PADDING-BOTTOM: 0px; LINE-HEIGHT: 30px; PADDING-LEFT: 15px; PADDING-RIGHT: 15px; BACKGROUND: url(../images/nav_li.jpg) no-repeat right 50%; FLOAT: left; HEIGHT: 30px; PADDING-TOP: 0px
+}
+.Banner {
+	PADDING-BOTTOM: 14px; MARGIN-TOP: 1px; BACKGROUND: url(../images/ban_bg.jpg) repeat-x 50% bottom
+}
+.I_left {
+	WIDTH: 436px; FLOAT: left; OVERFLOW: hidden
+}
+.I_left DT {
+	BORDER-BOTTOM: #e3e3e3 1px solid; POSITION: relative; WIDTH: 436px; HEIGHT: 27px; FONT-SIZE: 12px
+}
+.I_left DT SPAN {
+	TEXT-ALIGN: center; LINE-HEIGHT: 22px; WIDTH: 91px; BACKGROUND: url(../images/nav.jpg); FLOAT: left; HEIGHT: 22px; FONT-SIZE: 12px; CURSOR: pointer; MARGIN-RIGHT: 1px; PADDING-TOP: 5px
+}
+.I_left DT SPAN A {
+	POSITION: absolute; FONT-SIZE: 12px; TOP: 10px; LEFT: -9999px
+}
+.I_left DT .on {
+	BACKGROUND: url(../images/nav_bg.jpg) repeat-x 50% top; COLOR: #ffffff
+}
+.I_left DT .on A {
+	LEFT: 400px !important
+}
+.I_left DD {
+	WIDTH: 436px
+}
+.I_left DD UL {
+	MARGIN: 0px auto; WIDTH: 432px; HEIGHT: 244px; OVERFLOW: hidden; PADDING-TOP: 15px
+}
+.I_left DD UL LI {
+	WIDTH: 430px; OVERFLOW: hidden
+}
+.I_left DD UL .Top_li {
+	PADDING-BOTTOM: 8px; WIDTH: 430px; HEIGHT: 88px; OVERFLOW: hidden; _display: inline
+}
+.I_left DD UL .Top_li IMG {
+	BORDER-BOTTOM: #bfbfbf 1px solid; BORDER-LEFT: #bfbfbf 1px solid; FLOAT: left; BORDER-TOP: #bfbfbf 1px solid; BORDER-RIGHT: #bfbfbf 1px solid
+}
+.I_left DD UL .Top_li .news_info {
+	WIDTH: 290px; FLOAT: left; HEIGHT: auto; OVERFLOW: auto
+}
+.I_left DD UL .Top_li .news_info H2 {
+	LINE-HEIGHT: 24px; HEIGHT: 24px; FONT-SIZE: 14px
+}
+.I_left DD UL .Top_li .news_info A {
+	COLOR: #0f46a6
+}
+.I_left DD UL .Top_li .news_info H2 A:hover {
+	TEXT-DECORATION: underline
+}
+.I_left DD UL .Top_li .news_info P {
+	LINE-HEIGHT: 20px; MARGIN-TOP: 4px; HEIGHT: 40px; OVERFLOW: hidden
+}
+.I_left DD UL .Top_li .news_info .more1 {
+	LINE-HEIGHT: 20px; MARGIN-TOP: -20px; FLOAT: right; FONT-SIZE: 10px
+}
+.I_left DD UL .I_l_li {
+	TEXT-ALIGN: right; LINE-HEIGHT: 22px; BACKGROUND: url(../images/jiantou.jpg) no-repeat 3px 50%; HEIGHT: 22px; COLOR: #1046a6
+}
+.I_left DD UL .I_l_li .Title {
+	TEXT-ALIGN: left; WIDTH: 200px; MARGIN-LEFT: 18px; font-size:12px; font-family:"Microsoft Yahei";
+}
+.I_left DD UL .I_l_li A {
+	COLOR: #1046a6
+}
+.I_cent {
+	WIDTH: 552px; FLOAT: left; HEIGHT: 280px; MARGIN-LEFT: 15px; OVERFLOW: hidden; _Display: inline
+}
+.I_cent DT {
+	BORDER-BOTTOM: #e3e3e3 1px solid; POSITION: relative; WIDTH: 552px; HEIGHT: 27px; FONT-SIZE: 12px
+}
+.I_cent DT SPAN {
+	LINE-HEIGHT: 25px; PADDING-LEFT: 26px; WIDTH: 65px; BACKGROUND: url(../images/nav2.jpg) no-repeat left center; FLOAT: left; HEIGHT: 25px; COLOR: #134baf; FONT-SIZE: 12px; CURSOR: pointer; MARGIN-RIGHT: 5px; PADDING-TOP: 2px
+}
+.I_cent DT SPAN A {
+	POSITION: absolute; FONT-SIZE: 12px; TOP: 10px; LEFT: -9999px
+}
+.I_cent DT .on {
+	BACKGROUND: url(../images/nav_bg2.jpg) repeat-x center 50%; COLOR: #ffffff
+}
+.I_cent DT .on A {
+	LEFT: 520px !important
+}
+.I_h2 {
+	LINE-HEIGHT: 30px; FONT-FAMILY: Î¢ÈíÑÅºÚ; HEIGHT: 30px; COLOR: #4a4a44; FONT-SIZE: 13px
+}
+.I_h2 SPAN {
+	MARGIN-LEFT: 5px; FONT-SIZE: 12px; FONT-WEIGHT: 100
+}
+.I_con {
+	WIDTH: 552px; HEIGHT: 228px; OVERFLOW: hidden; PADDING-TOP: 17px
+}
+.I_con .list {
+	WIDTH: 250px; FLOAT: left; HEIGHT: 245px; OVERFLOW: hidden
+}
+.I_con .list LI {
+	LINE-HEIGHT: 20px; HEIGHT: 20px;
+	}
+.I_con .photo {
+	WIDTH: 276px; FLOAT: right; HEIGHT: 220px; PADDING-TOP: 5px
+}
+.I_con .photo IMG {
+	BORDER-BOTTOM: #cac7c0 1px solid; BORDER-LEFT: #cac7c0 1px solid; WIDTH: 276px; HEIGHT: 220px; BORDER-TOP: #cac7c0 1px solid; BORDER-RIGHT: #cac7c0 1px solid
+}
+.I_contact {
+	WIDTH: 273px; BACKGROUND: url(../images/i_contact.jpg) no-repeat 50% bottom; FLOAT: right; HEIGHT: 198px; OVERFLOW: hidden
+}
+.I_contact P {
+	LINE-HEIGHT: 26px; MARGIN: 15px; COLOR: #757575
+}
+.Bottom {
+	TEXT-ALIGN: right; PADDING-BOTTOM: 20px; LINE-HEIGHT: 24px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BACKGROUND: url(../images/bottom.jpg) #fff repeat-x 0px 20px; HEIGHT: 48px; PADDING-TOP: 40px
+}
+.Bottom SPAN {
+	TEXT-ALIGN: left; FLOAT: left; MARGIN-LEFT: 20px; _display: inline
+}
+.Bg1 {
+	BACKGROUND: url(../images/main.jpg) #fff no-repeat left bottom; PADDING-TOP: 10px; min-height:500px;
+}
+.Left {
+	WIDTH: 187px; FLOAT: left; HEIGHT: auto; MARGIN-LEFT: 20px; OVERFLOW: hidden; _display: inline
+}
+.L_h1 {
+	BORDER-BOTTOM: #cbcbcb 1px dotted; HEIGHT: 38px
+}
+.L_h1 B {
+	LINE-HEIGHT: 20px; PADDING-LEFT: 5px; DISPLAY: block; FONT-FAMILY: Î¢ÈíÑÅºÚ; HEIGHT: 20px; COLOR: #0c3e98; FONT-SIZE: 18px
+}
+.L_h1 SPAN {
+	LINE-HEIGHT: 14px; PADDING-LEFT: 5px; DISPLAY: block; HEIGHT: 18px; COLOR: #666666; FONT-SIZE: 14px
+}
+.Left UL {
+	MARGIN-TOP: 10px; WIDTH: 187px; OVERFLOW: hidden
+}
+.Left UL LI {
+	LINE-HEIGHT: 23px; MARGIN-TOP: 5px; WIDTH: 187px; HEIGHT: 23px; OVERFLOW: hidden
+}
+.Left UL LI A {
+	PADDING-LEFT: 12px; DISPLAY: block; HEIGHT: 23px; COLOR: #b5743f; FONT-WEIGHT: bold
+}
+.Left UL LI A:hover {
+	BACKGROUND: url(../images/l_a.jpg) no-repeat; COLOR: #fff !important
+}
+.Left .I_h2 {
+	BORDER-BOTTOM: #cbcbcb 1px dotted; MARGIN-TOP: 10px
+}
+.Left IMG {
+	MARGIN-TOP: 10px
+}
+.Right {
+	PADDING-BOTTOM: 10px; WIDTH: 761px; BACKGROUND:  FLOAT: right; OVERFLOW: hidden; MARGIN-RIGHT: 15px; _display: inline
+}
+.R_top {
+	LINE-HEIGHT: 33px; PADDING-LEFT: 20px; MARGIN-BOTTOM: 30px; BACKGROUND: url(../images/r_top.jpg) no-repeat; HEIGHT: 33px; FONT-SIZE: 12px
+}
+.R_top B {
+	FONT-FAMILY: Î¢ÈíÑÅºÚ; COLOR: #b5743f; MARGIN-LEFT: 20px; FONT-SIZE: 14px
+}
+.R_top SPAN {
+	FLOAT: right; COLOR: #666666; FONT-WEIGHT: 100; MARGIN-RIGHT: 17px; _display: inline
+}
+.Con {
+	LINE-HEIGHT: 24px; MARGIN: 30px 18px; COLOR: #4a4a4a; OVERFLOW: hidden
+}
+.C_ul {
+	MARGIN: 10px auto; WIDTH: 750px; OVERFLOW: hidden
+}
+.C_ul LI {
+	BORDER-BOTTOM: #9b9b9b 1px dotted; PADDING-BOTTOM: 10px; LINE-HEIGHT: 22px; MARGIN-TOP: 20px; WIDTH: 750px; COLOR: #696968; OVERFLOW: hidden
+}
+.h2_list {
+	TEXT-ALIGN: right; LINE-HEIGHT: 32px; PADDING-LEFT: 28px; PADDING-RIGHT: 10px; BACKGROUND: url(../images/jiantou1.jpg) no-repeat 10px 50%; HEIGHT: 32px
+}
+.h2_list A {
+	FLOAT: left; COLOR: #000; FONT-SIZE: 14px
+}
+.C_ul LI P {
+	TEXT-INDENT: 2em
+}
+.R_h3 {
+	TEXT-ALIGN: center; LINE-HEIGHT: 32px; MARGIN-TOP: 30px; HEIGHT: 32px; COLOR: #000000; FONT-SIZE: 16px
+}
+.R_h4 {
+	BORDER-BOTTOM: #dedede 1px solid; TEXT-ALIGN: center; LINE-HEIGHT: 30px; MARGIN-TOP: 10px; HEIGHT: 30px; COLOR: #797979; FONT-SIZE: 12px; BORDER-TOP: #dedede 1px solid; FONT-WEIGHT: 100
+}
+.Next {
+	BORDER-BOTTOM: #dedede 1px solid; TEXT-ALIGN: right; LINE-HEIGHT: 32px; MARGIN-TOP: 20px; HEIGHT: 32px; COLOR: #797979; BORDER-TOP: #dedede 1px solid
+}
+.Next SPAN {
+	FLOAT: left
+}
+.Contact1 {
+	LINE-HEIGHT: 32px; MARGIN: 30px auto; WIDTH: 620px; COLOR: #797979; OVERFLOW: hidden
+}
+.Contact {
+	LINE-HEIGHT: 32px; MARGIN: 30px auto; WIDTH: 620px; BACKGROUND: url(../images/contact.jpg) no-repeat; COLOR: #797979; OVERFLOW: hidden
+}
+.Contact P {
+	MARGIN-TOP: 78px; MARGIN-LEFT: 150px
+}
+UL.L_ul {
+	MARGIN-BOTTOM: 150px
+}
+UL.L_ul LI {
+	BORDER-BOTTOM: #cbcbcb 1px dotted
+}
+UL.L_ul LI A:hover {
+	BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #483525 !important
+}
+.img {
+	POSITION: relative; TEXT-ALIGN: center; OVERFLOW: hidden
+}
+.img P {
+	POSITION: absolute; VERTICAL-ALIGN: middle; TOP: 50%
+}
+.img SPAN {
+	POSITION: absolute; VERTICAL-ALIGN: middle; TOP: 50%
+}
+.img P IMG {
+	Z-INDEX: -1; POSITION: relative; VERTICAL-ALIGN: middle; TOP: -50%; LEFT: -50%
+}
+.img SPAN IMG {
+	Z-INDEX: -1; POSITION: relative; VERTICAL-ALIGN: middle; TOP: -50%; LEFT: -50%
+}
+.img P LABEL {
+	POSITION: relative; VERTICAL-ALIGN: middle; TOP: -50%; LEFT: -50%
+}
+.img SPAN LABEL {
+	POSITION: relative; VERTICAL-ALIGN: middle; TOP: -50%; LEFT: -50%
+}
+.img P:after {
+	VISIBILITY: hidden; FONT-SIZE: 1px; CONTENT: "."
+}
+.img SPAN:after {
+	VISIBILITY: hidden; FONT-SIZE: 1px; CONTENT: "."
+}
+.Item {
+	MARGIN: 0px auto; WIDTH: 1003px; BACKGROUND: url(../images/Itembg.jpg); HEIGHT: 155px; OVERFLOW: hidden
+}
+.Item .Item_list {
+	MARGIN: 30px auto 0px; WIDTH: 975px; HEIGHT: 113px; OVERFLOW: hidden
+}
+.Item .Item_list LI {
+	WIDTH: 154px; FLOAT: left; HEIGHT: 113px; MARGIN-RIGHT: 10px
+}
+.Item .Item_list IMG {
+	PADDING-BOTTOM: 7px; PADDING-LEFT: 6px; PADDING-RIGHT: 6px; BACKGROUND: url(../images/Item_border.jpg) no-repeat center 50%; PADDING-TOP: 7px
+}
