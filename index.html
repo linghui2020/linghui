@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -16,22 +15,31 @@
 	<link rel="stylesheet" href="css/base.css">
 	<link rel="stylesheet" href="css/home.css">
 
+
 </head>
 <body data-spy="scroll" data-target=".bd-sidebar">
+	
 <div id="topAnchor"></div>
 <a href="#topAnchor" style="position:fixed;right:30px;bottom:30px;color:grey">回到顶部</a>
-<div class="bd-pageheader">
+<div class="bd-pageheader" style="position:fixed;top:0;left:0;right:0;z-index: 998;">
 	<div class="container">
 		<h1>POST · 环境信息 <img src="images/iwalecloud_logo.png" width="160px" height="50px"/></h1>
 		<p class="lead">POST ENV INFO		
 		</p>
 		
 	</div>
+
+	<!-- 团队成员信息 -->
+	<div class="snowflakes" aria-hidden="true">
+		
+	</div>
+
+
 </div>
 
-<article class="container bd-main">
+<article class="container bd-main" style="position:relative;top:16rem;;left:0;right:0;z-index: 997;">
 	<div class="row p-relative">
-		<div class="col-md-2 col-md-push-1 hidden-xs hidden-sm">
+		<div class="col-md-2 col-md-push-1 hidden-xs hidden-sm" >
 			<div class="bd-sidebar" data-spy="affix" data-offset-top="220">
 				<ul class="nav">
 					<li>
@@ -62,7 +70,7 @@
 								<a href="#f201">MySQL数据库</a>
 							</li>
 							<li>
-								<a href="#f203">PG数据库</a>
+								<a href="#f202">PG数据库</a>
 							</li>
 							<li>
 								<a href="#f203">ZMQ</a>
@@ -76,6 +84,17 @@
 							</li>
 							<li>
 								<a href="#f206">主机信息</a>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<a class="h4" href="#f3">POST文档管理</a>
+						<ul class="nav">
+							<li>
+								<a href="#f301">常用工具下载</a>
+							</li>
+							<li>
+								<a href="#f302">POST文档下载</a>
 							</li>
 						</ul>
 					</li>
@@ -226,14 +245,15 @@
 					</div>
 				</div>
 				
-				<h1 class="content-item-title" id="f2">
+				<h3 class="content-item-title" id="f2">
 					POST连接信息
-					<p>POST连接信息，POST主机等连接信息</p>
-				</h1>
+					<p style="font-size:1.2rem;display: inline;">&nbsp;&nbsp;&nbsp;POST主机等连接信息</p>
+				</h3>
+				
 				<div class="content-item noInfo" id="f201">
 					<h1>MySQL数据库</h1>
 					<div class="content-list clearfix">
-						<table class="table table-responsive">
+						<table class="table table-responsive table-condensed table-hover">
 							<thead>
 							  <tr>
 								<th>环境信息</th>
@@ -261,21 +281,266 @@
 						  </table>
 					</div>
 				</div>
+
+				<div class="content-item noInfo" id="f202">
+					<h1>PG数据库</h1>
+					<div class="content-list clearfix">
+						<table class="table table-responsive table-condensed table-hover">
+							<thead>
+							  <tr>
+								<th>环境信息</th>
+								<th>数据库IP</th>
+								<th>端口</th>
+							  </tr>
+							</thead>
+							<tbody>
+							  <tr>
+								<td>117环境</td>
+								<td>10.45.51.120</td>
+								<td>5432</td>
+							  </tr>
+							  <tr>
+								<td>19环境</td>
+								<td>10.45.50.16</td>
+								<td>5432</td>
+							  </tr>
+							  <tr>
+								<td>154环境</td>
+								<td>10.45.51.154</td>
+								<td>5432</td>
+							  </tr>
+							</tbody>
+						  </table>
+					</div>
+				</div>
+
+				<div class="content-item noInfo" id="f203">
+					<h1>ZMQ</h1>
+					<div class="content-list clearfix">
+						<table class="table table-responsive table-condensed table-hover">
+							<thead>
+							  <tr>
+								<th>环境信息</th>
+								<th>namesrv ip</th>
+								<th>namesrv port</th>
+								<th>broker ip</th>
+								<th>broker port</th>
+							  </tr>
+							</thead>
+							<tbody>
+							  <tr>
+								<td>117环境</td>
+								<td>10.45.51.120</td>
+								<td>9876</td>
+								<td>10.45.51.117(master)
+									 10.45.51.118(slave)</td>
+								<td>10911</td>
+							  </tr>
+							  <tr>
+								<td>19环境</td>
+								<td>10.45.50.16</td>
+								<td>9876</td>
+								<td>10.45.50.17（master）
+								10.45.50.18（slave）</td>
+								<td>10911</td>
+							  </tr>
+							  <tr>
+								<td>154环境</td>
+								<td>10.45.51.154</td>
+								<td>9876</td>
+								<td>10.45.51.165(master)
+									10.45.51.166(slave)</td>
+								<td>10911</td>
+							  </tr>
+							</tbody>
+						  </table>
+					</div>
+				</div>
+
+				<div class="content-item noInfo" id="f204">
+					<h1>Zcache</h1>
+					<div class="content-list clearfix">
+						<table class="table table-responsive table-condensed table-hover">
+							<thead>
+							  <tr>
+								<th>环境信息</th>
+								<th>IP</th>
+								<th>Port</th>
+							  </tr>
+							</thead>
+							<tbody>
+							  <tr>
+								<td>117环境</td>
+								<td>10.45.51.117
+									&nbsp;&nbsp;10.45.51.118
+									&nbsp;&nbsp;10.45.51.120</td>
+								<td>7670</td>
+							  </tr>
+							  <tr>
+								<td>19环境</td>
+								<td>10.45.50.16
+									&nbsp;&nbsp;10.45.50.17
+									&nbsp;&nbsp;10.45.50.18</td>
+								<td>27670</td>
+							  </tr>
+							  <tr>
+								<td>154环境</td>
+								<td>10.45.51.154
+									&nbsp;&nbsp;10.45.51.165
+									&nbsp;&nbsp;10.45.51.166</td>
+								<td>27670</td>
+							  </tr>
+							</tbody>
+						  </table>
+					</div>
+				</div>
+
+				<div class="content-item noInfo" id="f205">
+					<h1>Zookeeper</h1>
+					<div class="content-list clearfix">
+						<table class="table table-responsive table-condensed table-hover">
+							<thead>
+							  <tr>
+								<th>环境信息</th>
+								<th>IP</th>
+								<th>Port</th>
+							  </tr>
+							</thead>
+							<tbody>
+							  <tr>
+								<td>117环境</td>
+								<td>10.45.51.120</td>
+								<td>2181</td>
+							  </tr>
+							  <tr>
+								<td>19环境</td>
+								<td>10.45.50.16</td>
+								<td>2181</td>
+							  </tr>
+							  <tr>
+								<td>154环境</td>
+								<td>10.45.51.154</td>
+								<td>2181</td>
+							  </tr>
+							</tbody>
+						  </table>
+					</div>
+				</div>
+
+				<div class="content-item noInfo" id="f206">
+					<h1>主机管理</h1>
+					<div class="content-list clearfix">
+						<table class="table table-responsive table-condensed table-hover">
+							<thead>
+							  <tr>
+								<th>环境信息</th>
+								<th>host ip</th>
+							  </tr>
+							</thead>
+							<tbody>
+							  <tr>
+								<td>117环境</td>
+								<td>10.45.51.117
+									&nbsp;&nbsp;10.45.51.118
+									&nbsp;&nbsp;10.45.51.120
+									&nbsp;&nbsp;10.45.50.246</td>
+							  </tr>
+							  <tr>
+								<td>19环境</td>
+								<td>10.45.50.16
+									&nbsp;&nbsp;&nbsp;10.45.50.17
+									&nbsp;&nbsp;&nbsp;10.45.50.18
+									&nbsp;&nbsp;&nbsp;0.45.50.19</td>
+							  </tr>
+							  <tr>
+								<td>154环境</td>
+								<td>10.45.51.154
+									&nbsp;&nbsp;10.45.51.165
+									&nbsp;&nbsp;10.45.51.166</td>
+							  </tr>
+							  <tr>
+								<td>闲置主机</td>
+								<td>10.45.50.245
+									&nbsp;&nbsp;10.45.50.247
+									&nbsp;&nbsp;10.45.50.248
+									&nbsp;&nbsp;10.45.50.101</td>
+							  </tr>
+
+							</tbody>
+						  </table>
+					</div>
+				</div>
+
+				<h3 class="content-item-title" id="f3">
+					POST文件管理
+					<p style="font-size:1.2rem;display: inline;">&nbsp;&nbsp;&nbsp;POST文件和常用工具下载</p>
+				</h3>
+
+				
+				<div class="content-item noInfo" id="f301">
+					<h1>常用工具</h1>
+					<div class="content-list clearfix">
+						<table class="table table-condensed">
+							<tbody>
+							  <tr>
+								<td><a class="filedownload" target="_blank" href="download/scvpn.exe">HillstoneVPN下载</a></td>
+								<td><a class="filedownload" target="_blank" href="download/CiscoJabberSetup12.6.1.msi">Jabber下载</a></td>
+								<td><a class="filedownload" target="_blank" href="download/CitrixWorkspaceApp.exe">CitrixWorkspaceApp下载</a></td>
+								<td><a class="filedownload" target="_blank" href="download/dbeaver-ce-6.1.1-x86_64-setup.exe">dbeaver数据库工具下载</a></td>
+								<td><a class="filedownload" target="_blank" href="download/navicate.rar">navicate数据库工具下载</a></td>
+							  </tr>
+							  <tr>
+								<td><a class="filedownload" target="_blank" href="download/Postman-win64-7.21.1-Setup.exe">Postman-64位下载</a></td>
+								<td><a class="filedownload" target="_blank" href="download/SoapUI-Pro-x64-5.1.2.exe">SoapUI-64位下载</a></td>
+								<td><a class="filedownload" target="_blank" href="download/Snipaste-2.3-Beta-x64.zip">Snipaste截图工具下载</a></td>
+								<td><a class="filedownload" target="_blank" href="download/Zsmart Encryptor.zip">Zsmart Encryptor加密工具下载</a></td>
+							  </tr>
+							
+
+							</tbody>
+						  </table>
+					</div>
+				</div>
+
+				<div class="content-item noInfo" id="f302">
+					<h1>POST文档下载</h1>
+					<div class="content-list clearfix">
+						
+					</div>
+				</div>
 				
 			</div>
 		</div>
 
 	</div>
 </article>
-<footer class="bd-footer">
+<!-- <footer class="bd-footer">
 	<div class="container" style="float:right; text-align:right;">
-		Copyright © 2020  All rights reserved.
-		
+		Copyright © 2020  All rights reserved.	
 	</div>
 	<div style="clear: both"></div>
-</footer>
-<script src="images/jquery-2.1.4.min.js"></script>
-<script src="images/bootstrap.min.js"></script>
+</footer> -->
+<script src="js/jquery-2.1.4.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script>
+	var nameArr = ["孙思理","谭玮","贠心浩","彭有为","郑建","石尧","徐娟","袁敏","彭冠","刘毅","李彦","廖震超","张略乐","罗朝阳","梁欣","范颖","宋海舰","刘恒","凌辉","毛凯强"];
+	var divHtml = ''
+	for(var i=0;i < nameArr.length;i++){
+		divHtml += '<div class="snowflake">' +nameArr[i] + '</div>';
+	}
+ $(".snowflakes").html(divHtml);
+</script>
+<style>
+	.filedownload{
+	width:100% !important;
+	min-height: 0px !important;
+	text-decoration:underline ;
+}
+.filedownload :hover{
+	text-decoration:underline ;
+}
 
+</style>
+<link rel="stylesheet" href="css/xm.css">
 </body>
 </html>
